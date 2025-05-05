@@ -1,0 +1,68 @@
+.greeting__container {
+    width: 100%;
+    color: white;
+}
+
+.index__wrapper {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px 20px;
+}
+
+.index__banner {
+    display: flex;
+    flex-direction: column;
+    padding: 32px 42px;
+    border-radius: 10px;
+    background: #343434;
+}
+
+.index__banner__span {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.super__span {
+    font-size: 22px;
+}
+
+.index__banner__image__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.singUp {
+    padding: 20px 10px;
+    text-align: center;
+    background: #4D4D4D;
+    border-radius: 10px 10px 0 0;
+}
+
+.singUp__exclusive {
+    color: yellow;
+}
+
+.singUp__container__text {
+    margin: 10px 0;
+}
+
+.singUp__container_bottom {
+    margin: 10px 0;
+}
+
+.index__registrationAndLogin {
+    padding: 32px 42px;
+    background: #343434;
+    border-radius: 10px;
+}
+
+.greetAndChange {
+    display: flex;
+    border-bottom: 1px solid powderblue;
+}
+
+.greet__rows {
+    margin-right: 20px;
+}

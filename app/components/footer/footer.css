@@ -1,0 +1,42 @@
+.footer {
+    background: #343434;
+    color: white;
+}
+
+.footer__info {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 20px;
+}
+
+.footer__columns {
+    margin-right: 100px;
+}
+
+.footer__logo {
+    font-size: 35px;
+}
+
+.footer__links {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__columns p {
+    color: #FF4500;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.footer__links a {
+    font-size: 17px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.footer__rights {
+    text-align: center;
+    background: #4D4D4D;
+    padding: 15px 0;
+}

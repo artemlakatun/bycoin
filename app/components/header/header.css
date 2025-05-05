@@ -1,0 +1,23 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    background: #1A1A1A;
+}
+
+.header__logo {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.navigate__menu {
+    display: flex;
+    padding: 15px;
+}
+
+.menu__element {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}

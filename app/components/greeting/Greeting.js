@@ -6,7 +6,7 @@ const Greeting = () => {
             <div className='index__wrapper'>
                 <div className='index__banner'>
                     <span className='index__banner__span'>Your Friend Has Invited You to</span>
-                    <span className='index__banner__span super__span'>Unlock Exclusive Rewards With Your Friend's Referral</span>
+                    <span className='index__banner__span super__span'>Unlock Exclusive Rewards With Your Friend`s Referral</span>
                     <span className='index__banner__span'>Enjoy extra referee-only rewards on top of the $5,050 from standard <br/>
                         signup, for a total of $6,082!</span>
                     <div className='index__banner__image__wrapper'>
@@ -44,16 +44,16 @@ const Greeting = () => {
                         </div>
                     </div>
                     <div className='form__container'>
-                        <form>
+                        <form className='registration__form'>
                             <div className='form__login'>
-                                <input className='form__login__input' type='text' placeholder='Email'/>
-                                <div className='form__login__text'>
+                                <input className='form__login__input input' type='text' placeholder='Email'/>
+                                <div className='form__login__text under__input'>
                                     Please enter your email address
                                 </div>
                             </div>
                             <div className='form__password'>
-                                <input className='form__password__input' type='text' placeholder='Email'/>
-                                <div className='form__password__text'>
+                                <input className='form__password__input input' type='text' placeholder='Email'/>
+                                <div className='form__password__text under__input'>
                                     Please enter your password address
                                 </div>
                             </div>

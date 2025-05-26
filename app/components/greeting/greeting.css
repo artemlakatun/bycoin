@@ -8,7 +8,7 @@
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
-    padding: 50px 20px;
+    padding: 81px 20px;
 }
 
 .index__banner {
@@ -16,7 +16,7 @@
     flex-direction: column;
     padding: 32px 42px;
     border-radius: 10px;
-    background: #343434;
+    background: #141414;
 }
 
 .index__banner__span {
@@ -30,7 +30,11 @@
 
 .index__banner__image__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
+
+.index__banner__singUp {
+    height: 185px;
 }
 
 .singUp {
@@ -53,16 +57,51 @@
 }
 
 .index__registrationAndLogin {
-    padding: 32px 42px;
-    background: #343434;
+
+    background: #141414;
     border-radius: 10px;
 }
 
 .greetAndChange {
     display: flex;
     border-bottom: 1px solid powderblue;
+    padding: 20px 15px;
 }
 
 .greet__rows {
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.greet__text {
+    font-size: 26px;
+}
+
+.changer {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.form__container {
+    padding: 15px 30px;
+}
+
+.input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 7px;
+}
+
+.under__input {
+    margin-bottom: 20px;
+}
+
+.form__forgot__password {
+    text-align: end;
+}
+
+.form__button {
+    width: 100%;
+    height: 40px;
+    margin: 25px 0;
 }

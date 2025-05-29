@@ -1,4 +1,5 @@
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter } from "next/font/google";
+
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
 
@@ -6,16 +7,19 @@ import "./style/globals.css";
 
 export const metadata = {
   title: "ByCoin",
-  description: "",
 };
+
+const inter = Inter({
+    weight: '400',
+});
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className={inter.className}>
       <body>
-      <Header/>
-      <main>{children}</main>
-      <Footer/>
+          <Header/>
+          {children}
+          <Footer/>
       </body>
     </html>
   );

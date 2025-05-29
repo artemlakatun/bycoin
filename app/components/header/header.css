@@ -2,8 +2,8 @@
     width: 100%;
     display: flex;
     justify-content: space-around;
-    color: white;
-    background: #141414;
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
 }
 
 .header__logo {

@@ -1,10 +1,10 @@
 .footer {
     background: #3f3f3f;
-    color: white;
+    color: var(--main-text-color);
 }
 
 .footer__info {
-    background: #141414;
+    background: var(--main-bg-color);
     width: 100%;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
 }
 
 .footer__columns p {
-    color: #FF4500;
+    color: var(--secondary-text-color);
     font-size: 23px;
     margin-bottom: 20px;
 }
@@ -33,11 +33,11 @@
 .footer__links a {
     font-size: 17px;
     margin-bottom: 15px;
-    color: white;
+    color: var(--main-text-color);
 }
 
 .footer__rights {
     text-align: center;
-    background: #4D4D4D;
+    background: var(--secondary-bg-color);
     padding: 15px 0;
 }

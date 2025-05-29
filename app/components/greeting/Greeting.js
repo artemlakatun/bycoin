@@ -1,3 +1,5 @@
+import RegistrationForm from "@/app/components/registrationForm/RegistrationForm";
+
 import './greeting.css';
 
 const Greeting = () => {
@@ -8,7 +10,8 @@ const Greeting = () => {
                     <span className='index__banner__span'>Your Friend Has Invited You to</span>
                     <span className='index__banner__span super__span'>Unlock Exclusive Rewards With Your Friend`s Referral</span>
                     <span className='index__banner__span'>Enjoy extra referee-only rewards on top of the $5,050 from standard <br/>
-                        signup, for a total of $6,082!</span>
+                        signup, for a total of $6,082!
+                    </span>
                     <div className='index__banner__image__wrapper'>
                         <div className='index__banner__singUp singUp'>
                             <div className='singUp__container'>
@@ -43,26 +46,7 @@ const Greeting = () => {
                             <span>Sing Up</span>
                         </div>
                     </div>
-                    <div className='form__container'>
-                        <form className='registration__form'>
-                            <div className='form__login'>
-                                <input className='form__login__input input' type='text' placeholder='Email'/>
-                                <div className='form__login__text under__input'>
-                                    Please enter your email address
-                                </div>
-                            </div>
-                            <div className='form__password'>
-                                <input className='form__password__input input' type='text' placeholder='Email'/>
-                                <div className='form__password__text under__input'>
-                                    Please enter your password address
-                                </div>
-                            </div>
-                            <div className='form__forgot__password'>
-                                <span>Forgot password</span>
-                            </div>
-                            <button className='form__button'>Log In</button>
-                        </form>
-                    </div>
+                    <RegistrationForm />
                 </div>
             </div>
         </div>

@@ -4,13 +4,25 @@ const Header = () => {
     return (
         <header className='header'>
             <div className='header__logo'>ByCoin</div>
-            <div className='navigate__menu'>
-                <div className='menu__element'>Buy Crypto</div>
-                <div className='menu__element'>Market</div>
-                <div className='menu__element'>Trade</div>
-                <div className='menu__element'>Tools</div>
-                <div className='menu__element'>Finance</div>
-            </div>
+            <nav className='navigate__menu'>
+                <ul className='navigate__menu__list'>
+                    <li className='navigate__menu__list-item'>
+                        <a href="#" className="nav__link">Buy Crypto</a>
+                    </li>
+                    <li className='navigate__menu__list-item'>
+                        <a href="#" className="nav__link">Market</a>
+                    </li>
+                    <li className='navigate__menu__list-item'>
+                        <a href="#" className="nav__link">Trade</a>
+                    </li>
+                    <li className='navigate__menu__list-item'>
+                        <a href="#" className="nav__link">Tools</a>
+                    </li>
+                    <li className='navigate__menu__list-item'>
+                        <a href="#" className="nav__link">Finance</a>
+                    </li>
+                </ul>
+            </nav>
         </header>
     )
 }

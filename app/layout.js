@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Noto_Sans } from "next/font/google";
 
 import Header from "./components/header/Header";
 import Footer from "./components/footer/Footer";
@@ -9,14 +9,14 @@ export const metadata = {
   title: "ByCoin",
 };
 
-const inter = Inter({
+const inter = Noto_Sans({
     weight: '400',
 });
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className={inter.className}>
-      <body>
+    <html lang="en">
+      <body className={inter.className}>
           <Header/>
           {children}
           <Footer/>

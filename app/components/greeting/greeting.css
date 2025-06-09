@@ -1,6 +1,7 @@
 .greeting__container {
     width: 100%;
     color: var(--main-text-color);
+    background-color: #000;
 }
 
 .index__wrapper {
@@ -58,30 +59,4 @@
 
 .singUp__container_bottom {
     margin: 10px 0;
-}
-
-.index__registrationAndLogin {
-    min-width: 400px;
-    background-color: var(--main-bg-color);
-    border-radius: 10px;
-}
-
-.greetAndChange {
-    display: flex;
-    border-bottom: 1px solid var(--secondary-bg-color);
-    padding: 20px 15px;
-}
-
-.greet__rows {
-    margin-right: 40px;
-}
-
-.greet__text {
-    font-size: 22px;
-}
-
-.changer {
-    display: flex;
-    align-items: center;
-    font-size: 17px;
 }

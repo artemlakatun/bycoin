@@ -1,4 +1,4 @@
-import RegistrationForm from "@/app/components/registrationForm/RegistrationForm";
+   import RegistrationForm from "@/app/components/registrationForm/RegistrationForm";
 
 import './greeting.css';
 
@@ -9,9 +9,7 @@ const Greeting = () => {
                 <div className='index__banner'>
                     <span className='index__banner__span'>Your Friend Has Invited You to</span>
                     <span className='index__banner__span super__span'>Unlock Exclusive Rewards With Your Friend`s Referral</span>
-                    <span className='index__banner__span'>Enjoy extra referee-only rewards on top of the $5,050 from standard <br/>
-                        signup, for a total of $6,082!
-                    </span>
+                    <span className='index__banner__span'>Enjoy extra referee-only rewards on top of the $5,050 from standard signup, for a total of $6,082! </span>
                     <div className='index__banner__image__wrapper'>
                         <div className='index__banner__singUp singUp'>
                             <div className='singUp__container'>
@@ -37,17 +35,7 @@ const Greeting = () => {
                         </div>
                     </div>
                 </div>
-                <div className='index__registrationAndLogin'>
-                    <div className='greetAndChange'>
-                        <div className='greet__text greet__rows'>
-                            <span>Welcome to ByCoin!</span>
-                        </div>
-                        <div className='changer greet__rows'>
-                            <span>Sing Up</span>
-                        </div>
-                    </div>
-                    <RegistrationForm />
-                </div>
+                <RegistrationForm />
             </div>
         </div>
     )

@@ -6,18 +6,16 @@ const Footer = () => {
             <div className="footer__info">
                 <div className="footer__socials footer__columns">
                     <div className="footer__logo">ByCoin</div>
-                    <div className="footer__socials__img">
-
-                    </div>
+                    <div className="footer__socials__img"></div>
                 </div>
-                <div className="footer__about footer__colums footer__columns">
+                <div className="footer__about footer__columns">
                     <p>About</p>
-                    <div className='footer__aboute_info footer__links'>
-                        <a href='#'>About ByCoin</a>
-                        <a href='#'>Press Room</a>
-                        <a href='#'>ByCoin Community</a>
-                        <a href='#'>Careers</a>
-                    </div>
+                    <ul className='footer__aboute_info footer__links'>
+                        <li className="links"><a href='#'>About ByCoin</a></li>
+                        <li className="links"><a href='#'>Press Room</a></li>
+                        <li className="links"><a href='#'>Careers</a></li>
+                        <li className="links"><a href='#'>Community</a></li>
+                    </ul>
                 </div>
                 <div className="footer__support footer__columns">
                     <p>Support</p>

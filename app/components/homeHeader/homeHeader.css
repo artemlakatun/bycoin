@@ -1,0 +1,154 @@
+.home__header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: var(--main-text-color);
+    background: var(--main-bg-color);
+
+    .header__logo {
+        padding: 10px;
+        font-size: 30px;
+    }
+
+    .header__nav__menu {
+        display: flex;
+        padding: 15px;
+
+        .header__nav__menu__list {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .header__nav__menu__list__item {
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin-right: 15px;
+
+                .header__nav__link {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 10px;
+                    text-decoration: none;
+                    color: inherit;
+                    position: relative;
+                }
+
+                &:hover {
+                    .arrow {
+                        transform: rotate(180deg);
+                        border-top-color: var(--main-button-color);
+                    }
+
+                    .header__nav__link {
+                        color: var(--main-button-color);
+                    }
+
+                    .dropdown {
+                        display: block;
+                    }
+                }
+            }
+
+            .dropdown__container {
+                position: relative;
+
+                .dropdown {
+                    display: none;
+                    position: absolute;
+                    top: 100%;
+                    left: 0;
+                    background: var(--main-bg-color);
+                    padding: 10px;
+                    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+                    z-index: 1000;
+                    border-radius: 4px;
+                    min-width: 150px;
+
+                    li {
+                        list-style: none;
+                        margin-bottom: 8px;
+
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+
+                        a {
+                            color: var(--main-text-color);
+                            text-decoration: none;
+                            display: block;
+                            padding: 10px 16px;
+
+                            &:hover {
+                                color: var(--main-button-color);
+                            }
+                        }
+                    }
+                }
+
+                &:hover .dropdown {
+                    display: block;
+                }
+            }
+
+            .header__nav__menu__list__item:hover .arrow {
+                transform: rotate(180deg);
+                border-top-color: var(--main-button-color);
+            }
+
+            .header__nav__menu__list__item:hover .header__nav__link {
+                color: var(--main-button-color);
+            }
+        }
+    }
+
+    .header__profile__nav__menu {
+        display: flex;
+        padding: 15px;
+
+        .header__profile__nav__menu__list {
+            display: flex;
+            gap: 10px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .header__profile__nav__menu__list__item {
+                display: flex;
+                align-items: center;
+                position: relative;
+                margin-right: 15px;
+
+
+                .header__profile__nav__link {
+                    display: inline-flex;
+                    align-items: center;
+                    gap: 10px;
+                    text-decoration: none;
+                    color: inherit;
+                    position: relative;
+                }
+            }
+        }
+
+        .header__profile__nav__menu__list__item:hover .arrow {
+            transform: rotate(180deg);
+            border-top-color: var(--main-button-color);
+        }
+
+        .header__profile__nav__menu__list__item:hover .header__profile__nav__link {
+            color: var(--main-button-color);
+        }
+    }
+
+    .arrow {
+        display: inline-block;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #71757a;
+        transition: transform 0.3s ease-in-out;
+        cursor: pointer;
+    }
+}

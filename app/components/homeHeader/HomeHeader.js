@@ -2,7 +2,6 @@ import '../../style/globals.css';
 import './homeHeader.css';
 
 import Button from "@/app/components/button/Button";
-
 import SearchCoinForm from "@/app/components/searchCoinForm/SearchCoinForm";
 
 const HomeHeader = () => {
@@ -42,6 +41,30 @@ const HomeHeader = () => {
                     </li>
                     <li className="header__profile__nav__menu__list__item">
                         <a href="#" className="header__profile__nav__link">Assets <span className="arrow"></span></a>
+                        <div className="assets__dropdown">
+                            <div className="assets__dropdown__item">
+                                    <div className='balance'>
+                                        <div className='message'><span>asset review</span></div>
+                                        <div className="balance__sum">0 USDT</div>
+                                    </div>
+                            </div>
+                            <div className="assets__dropdown__item">
+                                <div className='payment'>
+                                    <Button className='btn__dropdown__payment'>contribute</Button>
+                                    <Button className='btn__dropdown__payment'>withdraw</Button>
+                                </div>
+                            </div>
+                            <div className="assets__dropdown__item">
+                                <div className='accounts'>
+                                    <div className='item__account'>
+                                        <a href='#'>Financing account</a>
+                                    </div>
+                                    <div className='item__account'>
+                                        <a href='#'>Single trading account</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li className="header__profile__nav__menu__list__item">
                         <a href="#" className="header__profile__nav__link">Profile</a>

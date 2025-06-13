@@ -7,7 +7,7 @@ import SearchCoinForm from "@/app/components/searchCoinForm/SearchCoinForm";
 const HomeHeader = () => {
     return (
         <header className="home__header">
-            <div className="header__logo">BuyCrypto</div>
+            <div className="header__logo">ByCoin</div>
             <nav className="header__nav__menu">
                 <ul className="header__nav__menu__list">
                     <li className="header__nav__menu__list__item">
@@ -57,10 +57,10 @@ const HomeHeader = () => {
                             <div className="assets__dropdown__item">
                                 <div className='accounts'>
                                     <div className='item__account'>
-                                        <a href='#'>Financing account</a>
+                                        <a className='account__link' href='#'>Financing account</a>
                                     </div>
                                     <div className='item__account'>
-                                        <a href='#'>Single trading account</a>
+                                        <a className='account__link' href='#'>Single trading account</a>
                                     </div>
                                 </div>
                             </div>

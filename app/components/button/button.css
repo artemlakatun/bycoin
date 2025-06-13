@@ -26,3 +26,10 @@
     background-color: var(--secondary-bg-color);
     border: 1px solid white;
 }
+
+.btn__home__preview {
+    width: 250px;
+    height: 55px;
+    margin-right: 50px;
+    font-size: 18px;
+}

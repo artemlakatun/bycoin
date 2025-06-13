@@ -1,4 +1,4 @@
-   import RegistrationForm from "@/app/components/registrationForm/RegistrationForm";
+import RegistrationForm from "@/app/components/registrationForm/RegistrationForm";
 
 import './greeting.css';
 

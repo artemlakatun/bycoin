@@ -1,13 +1,15 @@
 'use client'
 
 import HomeHeader from "@/app/components/homeHeader/HomeHeader";
-import Container from "@/app/components/container/Container";
+import HomePreview from "@/app/components/homePreview/HomePreview";
+import Ticker from "@/app/components/ticker/Ticker";
 
 export default function HomePage () {
     return (
         <>
             <HomeHeader />
-            <Container/>
+            <HomePreview />
+            <Ticker />
         </>
     )
 }

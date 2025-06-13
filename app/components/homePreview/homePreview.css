@@ -1,0 +1,38 @@
+.home__preview__container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #000;
+    color: var(--main-text-color);
+
+    .home__preview {
+        margin: 0 10%;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+
+        .home__preview__content {
+            max-width: 700px;
+
+            .orange__text {
+                font-size: 43px;
+                color: var(--main-button-color);
+            }
+
+            .button__container {
+
+            }
+        }
+
+        .home__preview__content p{
+            font-size: 32px;
+            margin: 30px 0;
+        }
+    }
+
+
+    .home__img {
+        min-height: 450px;
+        min-width: 450px;
+        background: blue;
+    }
+}

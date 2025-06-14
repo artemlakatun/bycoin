@@ -1,0 +1,57 @@
+.carousel__container {
+    width: 100%;
+    position: relative;
+    background-color: rgba(222,222,222,0.36);
+
+    .carousel__wrapper {
+        display: flex;
+        flex-direction: row;
+        gap: 80px;
+        margin: auto 10%;
+        padding: 50px 0;
+        max-width: 100%;
+        overflow: hidden;
+
+        .carousel__item {
+            display: flex;
+            flex-direction: row;
+            flex-shrink: 0;
+            gap: 20px;
+            width: 30%;
+            padding: 50px 15px;
+            background-color: white;
+            border-radius: 10px;
+            font-size: 21px;
+
+            .carousel__item__img {
+                min-width: 80px;
+                height: 80px;
+                background-color: blue;
+            }
+
+            .carousel__item__text {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+
+    .carousel__prog {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+
+
+        .prog {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background-color: #ccc;
+            cursor: pointer;
+        }
+
+        .prog.active {
+            background-color: #333;
+        }
+    }
+}
